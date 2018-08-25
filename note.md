@@ -27,3 +27,6 @@ or more simply
 
 - Header: <header> a container that holds website's header
 
+- Navigation: list of links
+  use <ul> for nav bar
+
