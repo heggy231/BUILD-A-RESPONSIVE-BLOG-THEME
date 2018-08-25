@@ -25,3 +25,5 @@ or more simply
   <!-- Content goes here -->
 </body>
 
+- Header: <header> a container that holds website's header
+
