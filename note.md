@@ -31,4 +31,7 @@ or more simply
   1) use <ul> for nav bar
   2) Inside of <ul> use list item <li> tag for each link in our nav bar
 
-
+- Nav bar li needs to be link
+  <a> tag with attribute href, controls URL your browser opens when clicking the link on the page.
+  <a href="http://www.google.com">Google</a>
+  - when we don't know the exact URL yet, we use # (hash) for place holder.  
