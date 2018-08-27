@@ -35,3 +35,18 @@ or more simply
   <a> tag with attribute href, controls URL your browser opens when clicking the link on the page.
   <a href="http://www.google.com">Google</a>
   - when we don't know the exact URL yet, we use # (hash) for place holder.  
+
+- Phase 2: 
+1) Add CSS reset ext CSS file
+2) Style the nav links
+3) Style the reset of the header
+
+- 1) Add CSS reset ext CSS file
+We already know <style> is one way to include CSS into HTML.  Next, CSS can be included via <link> tag which is external css file.
+
+  * link tag must have 2 things:
+    1) href - a URL where the CSS file lives
+    2) rel - which should always be set to "stylesheet"
+    ex) 
+    <link href="http://dash.ga.co/normalize.css" rel="stylesheet">
+    
