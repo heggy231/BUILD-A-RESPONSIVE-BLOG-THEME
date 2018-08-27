@@ -28,5 +28,7 @@ or more simply
 - Header: <header> a container that holds website's header
 
 - Navigation: list of links
-  use <ul> for nav bar
+  1) use <ul> for nav bar
+  2) Inside of <ul> use list item <li> tag for each link in our nav bar
+
 
