@@ -87,3 +87,9 @@ We already know <style> is one way to include CSS into HTML.  Next, CSS can be i
   a {
     color: white;
   }
+
+- padding (inside) vs margin (outside)
+
+- border CSS to have white border with rounded edges! prop short hand for border-width, border-style, and border-color.
+  border: 7px solid white;
+  border-radius: 20px;
