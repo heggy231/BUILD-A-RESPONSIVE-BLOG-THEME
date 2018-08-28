@@ -83,3 +83,7 @@ We already know <style> is one way to include CSS into HTML.  Next, CSS can be i
     background-size: cover;
   }
 
+- if you want to style links color; you must explicitly set it to the color; unlike heading or paragraph tag; it won't inherit from its parent element.
+  a {
+    color: white;
+  }
