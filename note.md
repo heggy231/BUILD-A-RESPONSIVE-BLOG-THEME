@@ -49,4 +49,16 @@ We already know <style> is one way to include CSS into HTML.  Next, CSS can be i
     2) rel - which should always be set to "stylesheet"
     ex) 
     <link href="http://dash.ga.co/normalize.css" rel="stylesheet">
-    
+    - good to always include normalize.css to all web project.
+
+  - by default browser gives some padding to list bullets points which makes links off-center!  We may fix this by using padding property to set 10px of padding on all sides.  As a default, bullet points are part of 40 px padding only left for ul padding.  By giving 10px you move the bullet off the screen and center the ul element.
+    ul {
+      /* fixing the list nav links be centered */
+      padding: 10px; 
+    }
+
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Best Poems</a></li>
+      <li><a href="#">Worst Poems</a></li>
+    </ul> 
