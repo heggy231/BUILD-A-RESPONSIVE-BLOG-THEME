@@ -61,4 +61,8 @@ We already know <style> is one way to include CSS into HTML.  Next, CSS can be i
       <li><a href="#">About Me</a></li>
       <li><a href="#">Best Poems</a></li>
       <li><a href="#">Worst Poems</a></li>
-    </ul> 
+    </ul>
+- Make list to look horizontal
+  li {
+    display: inline;
+  }
