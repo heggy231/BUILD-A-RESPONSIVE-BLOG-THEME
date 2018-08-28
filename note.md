@@ -70,4 +70,16 @@ We already know <style> is one way to include CSS into HTML.  Next, CSS can be i
   * block: stretch whole width of the page
   * inline: <a> is by default display inline. element exist within the normal flow of the text they're contained within - no line breaks, no taking up the whole width of the page.
 
-  
+  * giving links some breathing room:
+    li {
+      display: inline;
+      padding: 0px 10px 0 10px;
+    }
+
+- Header style
+  header {
+    text-align: center;
+    background: url("http://dash.ga.co/assets/jeff-bg.png");
+    background-size: cover;
+  }
+
