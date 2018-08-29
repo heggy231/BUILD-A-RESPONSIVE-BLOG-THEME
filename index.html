@@ -40,9 +40,16 @@
     }
     /* make the blog ez to read */
     article {
-      width: 500px;
+      max-width: 500px;
       padding: 20px;
+      /* centers the article top,bottom 0, width auto */
       margin: 0 auto;
+    }
+    /* if browser window smaller than 500px - apply condition */
+    @media (max-width: 500px) {
+      body {
+        background: red;
+      }
     }
   </style>
 </head>

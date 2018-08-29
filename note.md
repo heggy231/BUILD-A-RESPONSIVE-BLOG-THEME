@@ -111,4 +111,27 @@ We already know <style> is one way to include CSS into HTML.  Next, CSS can be i
   </article>
 
 - Article stretches out too much; narrower, center
-(easier to readß)
+(easier to read)
+
+- Center content hack: adding margin 0 auto center my blog.  Margin controls space btwn outside of an element and other elements around it.  When setting 0 auto, 0 margin top/bottom, auto left/right.  Auto means margin stretches all the way to the edge of the page.
+  article {
+    width: 500px;
+    padding: 20px;
+    margin: 0 auto; // centers content
+  }
+
+!! very useful !! remember margin: 0 auto trick!!
+
+- responsive trick: 
+1) content width update width: 500px; to max-width: 500px;
+  - Using max-width: instead of width means article elements can be smaller than 500px, but not any larger.
+
+2) nav bar and title looks so squished when browser window is really small.
+  * fix using media query, a technique allows CSS styles that only activate when the browser is a certain width.
+
+  /* if browser window smaller than 500px - apply condition */
+    @media (max-width: 500px) {
+      body {
+        background: red;
+      }
+    }
