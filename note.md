@@ -109,3 +109,6 @@ We already know <style> is one way to include CSS into HTML.  Next, CSS can be i
     <h2>Succulents freegan vegan letterpress brunch chambray</h2>
       <p>Typewriter synth sustainable enamel pin schlitz fashion axe. Disrupt put a bird on it etsy tofu whatever next level occupy photo booth subway tile synth VHS wayfarers man bun. Meditation echo park cardigan photo booth portland, fanny pack neutra authentic pickled. Lumbersexual actually before they sold out yuccie tousled, retro gluten-free wolf bicycle rights.</p>
   </article>
+
+- Article stretches out too much; narrower, center
+(easier to readß)
