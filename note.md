@@ -93,3 +93,19 @@ We already know <style> is one way to include CSS into HTML.  Next, CSS can be i
 - border CSS to have white border with rounded edges! prop short hand for border-width, border-style, and border-color.
   border: 7px solid white;
   border-radius: 20px;
+
+- Lesson 3:
+  1) Give the content a responsive design
+  2) Learn about advanced colors
+  3) Make our own "like" button in Javascript
+
+- 1) Give the content a responsive design
+ * give your site response to different device width gracefully
+ first focus on restructuring the site
+ - Wrap <article> around each blog post, lets group together multiple HTML elements that forms a single piece of content.
+
+  ex) 
+  <article>
+    <h2>Succulents freegan vegan letterpress brunch chambray</h2>
+      <p>Typewriter synth sustainable enamel pin schlitz fashion axe. Disrupt put a bird on it etsy tofu whatever next level occupy photo booth subway tile synth VHS wayfarers man bun. Meditation echo park cardigan photo booth portland, fanny pack neutra authentic pickled. Lumbersexual actually before they sold out yuccie tousled, retro gluten-free wolf bicycle rights.</p>
+  </article>
