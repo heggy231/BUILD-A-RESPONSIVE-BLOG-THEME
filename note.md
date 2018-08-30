@@ -186,3 +186,8 @@ Instead of 0-F scale RGB, RGBA use 0-255 with A transparency 0-1 scale.
 * it won't save data (we need back-end server such as frameworks like Ruby on Rails to save things)
 - Goal: a button that reacts when clicked!!
   1) make button HTML
+    <button>Like</button>
+  2) Add JS to HTML directly <script> tag
+    * Add <script></script> at the bottom, just above </body> tag
+
+  3) Add popup alert when pg loads
