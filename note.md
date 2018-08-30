@@ -195,6 +195,74 @@ Instead of 0-F scale RGB, RGBA use 0-255 with A transparency 0-1 scale.
     * By default, these events go unnoticed.  But we can use JavaScript to listen for specific events and take action when they happen.  EX) listen for click even on Like button element!!
 
 - Here ex JS that would listen for a click event on a button element: Note: using jQuery (pop lib makes it easy to select elements and listen for events)
+
+  1) add jQuery CDN from google https://developers.google.com/speed/libraries/#jquery: <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  2) Add this inside of script tag separate
   $("button").on("click", function() {
     alert("clicked!")
   });
+
+  - How jQuery works?
+    1) $ proceeds
+    $("button") select button, selector goes inside of quotes and parentheses $ left of it
+    - $("p") paragraph
+    - $("h1") headings
+    2) call the function ex) on(), which set up an event listener for our button element.
+    .on( -- here put 2 options (parameters or arguments -- ))
+
+    * basic format: $(element).on(event-type, thing-to-be-done);
+    ex) $(element).on("click", function() {
+          alert("A button was clicked!")
+        });
+
+    * Breakdown how JS click event alert function:
+      - The first parameter: type of event to listen to.
+      In this case: "click", but we could also listen for hover, scroll, etc. It must be in quotes!
+      The reason why it must be in "" is ITs' a String!
+      data type: string (other data types: numbers, lists, functions)
+
+      - Second parameter: Function (group together chunks of code and allow them to be executed at a later time.)
+        ex) 
+        function () {
+          alert("I got clicked!")
+        }
+
+  - Summary:
+  $("button").on("click", function() {
+    alert("Button clicked!")
+  });
+  - $("button)
+  The selector chooses the element to listen to.
+  - .on
+  the .on() function sets up an event listener for the element we selected.
+  - "click"
+  Type of event we listen for
+  - function() { - some action - }
+  Some action to take when event occurs!
+
+  1) max-width and @media queries for responsive design
+    1) content width update width: 500px; to max-width: 500px;
+      - Using max-width: instead of width means article elements can be smaller than 500px, but not any larger.
+    article {
+      max-width: 500px;
+      padding: 20px;
+      /* centers the article top,bottom 0, width auto */
+      margin: 0 auto;
+    }
+
+    /* if browser window smaller than 500px - apply condition */
+    @media (max-width: 500px) {
+      /* heading should be smaller in small screen */
+      h1 {
+        font-size: 36px;
+      }
+      /* stack nav bar vertical */
+      li {
+        display: block;
+        padding: 5px;
+      }
+    }
+
+  2) hex rgba colors (a is for transparency)
+  3) listen for events an react with JS/Jquery
