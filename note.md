@@ -160,3 +160,21 @@ mnelson:Desktop mnelson$ mkdir myproject
 mnelson:Desktop mnelson$ cd myproject/
 
 > ls -la // see the detail hidden folders like .git
+
+- Anatomy of Hex color code:
+ex) #F00
+1) always starts with #
+2) first Character controls the amount of redness. It ranges from 0(no red at all) to F(100% red).
+3) second Character controls the amount of green. 0 to F
+4) third Char controls amount of blue.  0 to F
+- TOGETHER RGB!!!  Hex work by "mix" of 3 primary colors!
+
+#000 black (no color)
+#FFF white (All color present)
+
+#F00 RED (100 R, 0 G, 0 B)
+- rgba() add alpha (transparency) to the mix!
+
+background: rgba(0, 0, 0, 0.5);
+// black with 50% opacity
+
