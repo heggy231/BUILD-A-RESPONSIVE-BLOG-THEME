@@ -130,8 +130,33 @@ We already know <style> is one way to include CSS into HTML.  Next, CSS can be i
   * fix using media query, a technique allows CSS styles that only activate when the browser is a certain width.
 
   /* if browser window smaller than 500px - apply condition */
-    @media (max-width: 500px) {
+    @media (max-width: 500px) { // this is setting a condition - when browser is smaller than 500px, if true; activate CSS inside!
       body {
         background: red;
       }
     }
+
+3) Style: Make the page look better at narrower width (mobile devices)
+  Few things when things are smaller (mobile screen):
+    1) Heading should be smaller!
+    
+    2) Nav links should sit on top of each other (display: block), rather than horizontally (display: inline)
+
+      ex) 
+      // smaller screen
+      @media (max-width: 500px) {
+        h1 { //Heading should be smaller!
+          font-size: 36px; //
+        }
+        li { //stack nav bar vertical
+          display: block;
+          padding: 5px;
+        }
+      }
+
+## learn git 101
+mnelson:Desktop mnelson$ cd ~/Desktop
+mnelson:Desktop mnelson$ mkdir myproject
+mnelson:Desktop mnelson$ cd myproject/
+
+> ls -la // see the detail hidden folders like .git
