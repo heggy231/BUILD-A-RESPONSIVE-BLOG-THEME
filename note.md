@@ -178,3 +178,11 @@ ex) #F00
 background: rgba(0, 0, 0, 0.5);
 // black with 50% opacity
 
+- RGBA color with transparency
+rgba(255, 255, 255, 1) // white color (presence of all color)
+Instead of 0-F scale RGB, RGBA use 0-255 with A transparency 0-1 scale. 
+
+## Like button using JavaScript!! Make webpage interactive
+* it won't save data (we need back-end server such as frameworks like Ruby on Rails to save things)
+- Goal: a button that reacts when clicked!!
+  1) make button HTML
