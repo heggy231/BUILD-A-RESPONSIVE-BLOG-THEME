@@ -190,4 +190,11 @@ Instead of 0-F scale RGB, RGBA use 0-255 with A transparency 0-1 scale.
   2) Add JS to HTML directly <script> tag
     * Add <script></script> at the bottom, just above </body> tag
 
-  3) Add popup alert when pg loads
+  3) Add popup alert when pg loads:
+    * Every time you move your mouse, click something, mouse over something, press a key or scroll, your browser fires off an event.
+    * By default, these events go unnoticed.  But we can use JavaScript to listen for specific events and take action when they happen.  EX) listen for click even on Like button element!!
+
+- Here ex JS that would listen for a click event on a button element: Note: using jQuery (pop lib makes it easy to select elements and listen for events)
+  $("button").on("click", function() {
+    alert("clicked!")
+  });

@@ -6,8 +6,7 @@
   <title>Page Title</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="http://dash.ga.co/normalize.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-  <script src="main.js"></script>
+
   <style>
     header {
       text-align: center;
@@ -85,8 +84,12 @@
     <p>Pitchfork tacos normcore typewriter. 3 wolf moon wayfarers unicorn, street art tbh messenger bag cornhole plaid. Chambray succulents air plant 90's godard offal before they sold out hexagon af letterpress ugh freegan.</p>
     <button>Like</button>
   </article>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script>
-    alert("Javascript works!");
+
+    $("button").on("click", function() {
+      alert("clicked!")
+    });
   </script>
 </body>
 </html>
