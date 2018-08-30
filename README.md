@@ -7,3 +7,5 @@
 2) Style the header with CSS
 3) Add responsive design + "like" button
 4) Build your own blog theme
+
+Final version: https://dash.generalassemb.ly/projects/build-your-own-blog-theme

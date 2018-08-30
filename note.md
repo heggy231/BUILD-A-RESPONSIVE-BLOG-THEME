@@ -266,4 +266,5 @@ Instead of 0-F scale RGB, RGBA use 0-255 with A transparency 0-1 scale.
 
   2) hex rgba colors (a is for transparency)
   3) listen for events an react with JS/Jquery
-    
+
+  - final version: https://dash.generalassemb.ly/projects/build-your-own-blog-theme
