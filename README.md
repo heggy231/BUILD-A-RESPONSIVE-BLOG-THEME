@@ -8,4 +8,4 @@
 3) Add responsive design + "like" button
 4) Build your own blog theme
 
-**[DEMO:](https://heggy231.github.io/BUILD-A-RESPONSIVE-BLOG-THEME/)**
+**[DEMO](https://heggy231.github.io/BUILD-A-RESPONSIVE-BLOG-THEME/)**
